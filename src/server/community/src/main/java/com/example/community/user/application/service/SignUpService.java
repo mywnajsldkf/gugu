@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class AccountSignUpService implements RecordUserUseCase {
+public class SignUpService implements RecordUserUseCase {
     private final RecordUserStatePort recordUserStatePort;
     private final LoadUserStatePort loadUserStatePort;
 
